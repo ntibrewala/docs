@@ -1,11 +1,8 @@
-docs
-====
-
 | Title                 | Description                   | Author(s)           | Tags       | Created     | Modified    |
 | -----                 | -----------                   | ---------           | ----       | -------     | --------    |
 | Getting started guide | Getting started with the eBot | Abhishek <br> Harsh | eBot, SOAR | 20 Oct 2014 | 18 Dec 2014 |
 
-Getting Started with eBot
+Getting Started with the eBot
 =========
 
 ## eBot Description
