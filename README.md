@@ -1,9 +1,9 @@
 docs
 ====
 
- | title | Description          | author: |tags: |created:|modified:|
- | ------------- | ----------- |----------- |----------- |----------- |----------- |
- | Getting started with eBot     | eBot hardware and Soar code|Abhishek Gupta, Harsh Bhatt |eBot, Soar, Edgebotix |2014 Oct 20 |2014 Nov 20 |
+| Title                 | Description                   | Author(s)           | Tags       | Created     | Modified    |
+| -----                 | -----------                   | ---------           | ----       | -------     | --------    |
+| Getting started guide | Getting started with the eBot | Abhishek <br> Harsh | eBot, SOAR | 20 Oct 2014 | 18 Dec 2014 |
 
 Getting Started with eBot
 =========
