@@ -11,8 +11,8 @@ Getting Started with the eBot
 
 LED positions
 * 1- Bluetooth
-* 2- Charging
-* 3- MCU
+* 2- MCU
+* 3- Charging
 
 eBots are a robust, 3D-printed versatile STEM learning robotics platform that provide modularity and customization options. eBots aim to bridge the link between theory and practice by providing the ideal platform for students to collaborate and use their combined knowledge to build the best solution to a task. EdgeBotix wants to build the best supporting community and provide resources for teaching, making it extremely easy to integrate into the curriculum, something not seen in current educational robots.
 
