@@ -216,4 +216,3 @@ Pairing
 
 5. Then enter the device pairing code as 0000 and click pair.
 
-It contains the doccument to get started with eBot
