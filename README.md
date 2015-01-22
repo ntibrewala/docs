@@ -60,8 +60,12 @@ The following are detailed technical specifications of the eBots:
 * eBot could be paired by entering the pairing code "0000". If you want the step by step guide of pairing with your system you can click [here](#pairing).
 
 ### Python Installation
-You might need:
-* [Python 2.7](http://epd-free.enthought.com/?Download=Download+EPD+Free+7.3-2)
+Dependencies :
+* [Python 2.7](https://www.python.org/download/releases/2.7.6/)
+
+Windows Only:
+* [pywin32 x64](http://sourceforge.net/projects/pywin32/files/pywin32/Build%20219/pywin32-219.win-amd64-py2.7.exe/download)
+* [pywin32 x86](http://sourceforge.net/projects/pywin32/files/pywin32/Build%20219/pywin32-219.win32-py2.7.exe/download)
 
 Soar
 ---------
@@ -169,17 +173,17 @@ Returns true if the vale is less than 250 mm
 * acceleration(): Returns the absolute value of the X,Y, theta coordinates of the robot with reference to starting position
 
 **Example**
-```
-From eBot import *
-From time import *
+```python
+from eBot import *
+from time import *
 eBot = eBot()
 eBot.connect()
-eBot.wheels(1,1) full forward
+eBot.wheels(1,1) #full forward
 sleep(1)
-eBot.wheels(0,0) Stop – can use halt as well
+eBot.wheels(0,0) #Stop – can use halt as well
 sleep(0.5)
 eBot.led(1)
-eBot.wheels(-1,-1) full backward
+eBot.wheels(-1,-1) #full backward
 sleep(1)
 eBot.halt()
 ```
@@ -188,7 +192,7 @@ Pairing
 ----------
 **Windows**
 
-1. Type add Bluetooth device in the start search box 
+1. Type add Bluetooth device in the start search box
 
 2. A dialog window will open up as shown in figure
 ![Devices](https://github.com/EdgeBotix/docs/blob/master/images/devices.PNG)
