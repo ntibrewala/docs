@@ -13,7 +13,8 @@
 2. Extract the contents of *BCM9WCDUSI09.zip* into the `platforms` folder in the project directory
   - Default directory for windows is under `%My Documents%\WICED\WICED-SDK-3.1.2\WICED-SDK\platforms`
 
-  ![Test](/Screenshots/folder_copy.png)
+  ![Extract Folder](/SenSing/Wiced SDK & BM-09 Reference/Screenshots/folder_copy.png)
 
+3. 
 
 Additional information can be found [here](http://community.broadcom.com/message/7619)
