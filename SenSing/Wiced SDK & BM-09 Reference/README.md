@@ -15,6 +15,23 @@
 
   ![Extract Folder](/SenSing/Wiced SDK & BM-09 Reference/Screenshots/folder_copy.png)
 
-3. 
+3. Copy the existing Make Target `snip.scan-BCM943362WCD4` and paste it
 
-Additional information can be found [here](http://community.broadcom.com/message/7619)
+  ![Copy Make](/SenSing/Wiced SDK & BM-09 Reference/Screenshots/copy_make.png)
+
+4. Rename the new Make Target to `snip.scan-BCM9WCDUSI09`
+
+  ![Rename Make](/SenSing/Wiced SDK & BM-09 Reference/Screenshots/paste_make.png)
+
+5. Repeat steps 3 and 4 and create 2 more Make Targets:
+  * `snip.scan-BCM9WCDUSI09 download`
+  * `snip.scan-BCM9WCDUSI09 download run`
+  ![Mutliple Make](/SenSing/Wiced SDK & BM-09 Reference/Screenshots/multiple_make.png)
+
+Executing `snip.scan-BCM9WCDUSI09 download run` while the EVB is connected and drivers are properly installed, should compile, download and run the binary file for the scan snip.
+
+### Additional Information
+* Drivers for the EVB are under `%My Documents%\WICED\WICED-SDK-3.1.2\WICED-SDK\tools\drivers`
+* Default baud rate for serial port: `115200`
+* Useful links:
+  * http://community.broadcom.com/message/7619
