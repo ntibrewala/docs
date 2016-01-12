@@ -93,7 +93,7 @@ To install Digital World Library, follow the steps according to your platform:
 ```
 
 **Windows:**
-* Download SOAR-master.zip from the [github](https://github.com/EdgeBotix/SOAR)
+* Download SOAR-master.zip from the [github](https://github.com/EdgeBotix/SOAR-Source)
 * Unzip the file
 * Open Command Prompt by typing "cmd" from the Start Menu
 * Go the directory/folder where you have unzipped the file, e.g. type :
@@ -104,7 +104,7 @@ To install Digital World Library, follow the steps according to your platform:
 ```
    python setup.py install
 ```*Incase you get an error like: "'python' is not recognized as an internal or external command." You need to define your path in the DOS path. To do simply go to: 1. Control Panel>>All Control Panel Items>>System >>Advanced System settings>> Environmental Variables>>                               2. Under System variables, Open variable "Path" and in variable value add ";C:\Python27" 
-                              3. Click on Okay
+                              3. Click on Ok.
                               4. Then install the library by typing:   python setup.py install
 
 ### RUNNING SIMULATOR - SOAR
