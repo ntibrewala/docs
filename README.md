@@ -103,7 +103,9 @@ To install Digital World Library, follow the steps according to your platform:
    * Install the library by typing:
 ```
    python setup.py install
-```
+```*Incase you get an error like: "'python' is not recognized as an internal or external command." You need to define your path in the DOS path. To do simply go to: 1. Control Panel>>All Control Panel Items>>System >>Advanced System settings>> Environmental Variables>>                               2. Under System variables, Open variable "Path" and in variable value add ";C:\Python27" 
+                              3. Click on Okay
+                              4. Then install the library by typing:   python setup.py install
 
 ### RUNNING SIMULATOR - SOAR
 After you have installed the Digital World Library, you can run the
